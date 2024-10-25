@@ -22,7 +22,7 @@ class Server:
         page_size: int
     ) -> Tuple[int, int]:
         """
-        This returns a tuple of size two containing a start index and an end index
+        Returns a tuple of size two containing a start index and an end index
 
         Args:
             page (int): This is the current page number (1-indexed)
@@ -51,7 +51,7 @@ class Server:
         This returns the page with the given page number and page size
 
         Args:
-            page (int, optional): This is the current page number (1-indexed)
+            page (int, optional): The current page number (1-indexed)
             Defaults to 1
             page_size (int, optional): This is the number of items per page
             Defaults to 10
